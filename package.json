@@ -1,0 +1,25 @@
+{
+  "name": "lbdb",
+  "version": "1.0.0",
+  "description": "Example branch name: 'jira/LBDB-1' \\\r Example commit message: 'LBDB-1: commit description'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzbarcea/lol-betting-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzbarcea/lol-betting-discord-bot/issues"
+  },
+  "homepage": "https://github.com/pzbarcea/lol-betting-discord-bot#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "mongoose": "^6.9.2"
+  }
+}
